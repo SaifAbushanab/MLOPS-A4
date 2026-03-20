@@ -1,0 +1,24 @@
+# ML Model CI — Assignment 4
+
+This project demonstrates a GitHub Actions CI pipeline for an ML (PyTorch) project.
+
+## Contents
+
+| File | Description |
+|------|-------------|
+| `train.py` | Placeholder training script |
+| `requirements.txt` | Python dependencies |
+| `.github/workflows/ml-pipeline.yml` | CI workflow |
+
+## Pipeline Steps
+
+1. **Checkout** — clone the repository
+2. **Setup Python 3.10** — install the Python runtime
+3. **Install Dependencies** — `pip install -r requirements.txt`
+4. **Linter Check** — run `flake8` for code quality
+5. **Model Dry Test** — verify PyTorch imports correctly
+6. **Upload Artifact** — upload `README.md` as `project-doc`
+
+## Trigger
+
+The pipeline runs on every `push` to **all branches except `main`**.
