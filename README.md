@@ -7,7 +7,6 @@ This project demonstrates a GitHub Actions CI pipeline for an ML (PyTorch) proje
 
 1. **Checkout** — clone the repository
 2. **Setup Python 3.10** — install the Python runtime
-3. **Install Dependencies** — `pip install -r requirements.txt`
-4. **Linter Check** — run `flake8` for code quality
-5. **Model Dry Test** — verify PyTorch imports correctly
-6. **Upload Artifact** — upload `README.md` as `project-doc`
+3. **Linter Check** — run `flake8` for code quality
+4. **Model Dry Test** — verify PyTorch imports correctly
+5. **Upload Artifact** — upload `README.md` as `project-doc`
